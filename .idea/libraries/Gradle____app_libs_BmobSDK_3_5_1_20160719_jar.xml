@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/BmobSDK_3.5.1_20160719.jar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/BmobSDK_3.5.1_20160719.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

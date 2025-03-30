@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BJ_TRIP.iml" filepath="$PROJECT_DIR$/BJ_TRIP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.iml" filepath="$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.unitTest.iml" />
+    </modules>
+  </component>
+</project>
