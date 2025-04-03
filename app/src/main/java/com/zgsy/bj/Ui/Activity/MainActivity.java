@@ -8,6 +8,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Message;
+import android.os.SystemClock;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
@@ -26,6 +27,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.zgsy.bj.Tools.AsynImageLoader;
 import com.zgsy.bj.Tools.DepthPageTransformer;
 import com.zgsy.bj.Data.List_info;
@@ -33,6 +35,7 @@ import com.zgsy.bj.R;
 import com.zgsy.bj.Tools.ZoomOutPageTransformer;
 import com.zgsy.bj.Ui.Adapter.gridviewAdapter;
 import com.zgsy.bj.Ui.Adapter.listmain_adapter;
+import com.zgsy.bj.search.BusLineSearchDemo;
 import com.zgsy.bj.search.PoiSearchDemo;
 import com.zgsy.bj.search.RoutePlanDemo;
 
@@ -43,11 +46,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 
-
-
-
 import static java.lang.Integer.MAX_VALUE;
-
 
 
 public class MainActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener, AdapterView.OnItemClickListener {
@@ -126,12 +125,12 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
                         intent.setClass(MainActivity.this, RoutePlanDemo.class);
                         startActivity(intent);
                         break;
-//                    case 1:
-//                        Intent intent1 = new Intent();
-//                        intent1.setClass(MainActivity.this, BusLineSearchDemo.class);
-//                        startActivity(intent1);
-//                        break;
                     case 1:
+                        Intent intent1 = new Intent();
+                        intent1.setClass(MainActivity.this, WebActivity.class);
+                        startActivity(intent1);
+                        break;
+                    case 2:
                         Intent intent2 = new Intent();
                         intent2.setClass(MainActivity.this, PoiSearchDemo.class);
                         startActivity(intent2);
@@ -173,7 +172,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
                     intent.setData(uri);
 
                     // 检查是否有能处理该意图的应用（也就是系统中是否存在日历应用）
-                    if (intent.resolveActivity(getPackageManager())!= null) {
+                    if (intent.resolveActivity(getPackageManager()) != null) {
                         startActivity(intent);
                     } else {
                         // 如果没有找到可处理的应用，这里可以进行相应的提示，比如Toast提示用户
@@ -484,11 +483,13 @@ fragment 碎片显示
                             , "https://img0.baidu.com/it/u=2747146180,1946809341&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1421"
                             , "https://img2.baidu.com/it/u=3868982764,3926699003&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422"
                             , "https://img0.baidu.com/it/u=2747146180,1946809341&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1421"
-                            };
+                    };
 
                     for (int i = 0; i < 4; i++) {
-                        AsynImageLoader asynImageLoader = new AsynImageLoader();
-                        asynImageLoader.showImageAsyn((ImageView) mImageViews.get(i), Url[i], 0x7f0200e9);
+//                        AsynImageLoader asynImageLoader = new AsynImageLoader();
+//                        asynImageLoader.showImageAsyn((ImageView) mImageViews.get(i), Url[i], 0x7f0200e9);
+
+                        Glide.with(MainActivity.this).load(Url[i]).into(mImageViews.get(i));
                     }
 
                     viewPager.setAdapter(pageradapter);
@@ -651,5 +652,26 @@ fragment 碎片显示
         // 导入相应的包：import android.widget.Toast;
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
+
+    // 记录第一次点击返回键的时间
+    private long lastBackPressTime = 0;
+    // 定义两次点击的时间间隔，单位为毫秒
+    private static final long EXIT_TIME_INTERVAL = 2000;
+
+    @Override
+    public void onBackPressed() {
+        // 获取当前时间
+        long currentTime = SystemClock.elapsedRealtime();
+        if (currentTime - lastBackPressTime < EXIT_TIME_INTERVAL) {
+            // 两次点击时间间隔小于 2 秒，退出应用
+            super.onBackPressed();
+        } else {
+            // 第一次点击或两次点击时间间隔超过 2 秒，提示用户再次点击
+            lastBackPressTime = currentTime;
+            Toast.makeText(this, "再次点击返回退出", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+
 }
 

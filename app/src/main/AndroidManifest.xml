@@ -44,6 +44,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="BJTrip"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme"
         tools:replace="android:label">
         <meta-data
@@ -134,6 +135,7 @@
             android:exported="true" />
 
         <activity android:name="com.zgsy.bj.Ui.Activity.TempActivity" />
+        <activity android:name="com.zgsy.bj.Ui.Activity.WebActivity" />
         <activity android:name="com.zgsy.bj.Ui.Activity.MineActivity" />
         <activity
             android:name="com.zgsy.bj.Ui.Activity.LineActivity"

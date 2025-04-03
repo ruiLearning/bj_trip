@@ -37,8 +37,10 @@ import android.widget.Toast;
 
 
 import com.zgsy.bj.Constants;
+import com.zgsy.bj.Data.BaseBean;
 import com.zgsy.bj.Data.DatabaseHelper;
 import com.zgsy.bj.Data.LoginBody;
+import com.zgsy.bj.Data.RegisterBody;
 import com.zgsy.bj.Data.User;
 import com.zgsy.bj.R;
 import com.zgsy.bj.net.BJApi;
@@ -87,31 +89,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         //PushAgent.getInstance(context).onAppStart();
-        Retrofit retrofit = RetrofitClient.getClient("http://192.168.0.102:8080/");
-        BJApi userApi = retrofit.create(BJApi.class);
 
-        LoginBody newUser = new LoginBody();
-        newUser.setLoginAccount("user2");
-        newUser.setPassword("123456");
-        newUser.setRole(1);
-        Call<User> call = userApi.getUser(newUser);
-        call.enqueue(new Callback<User>() {
-            @Override
-            public void onResponse(Call<User> call, Response<User> response) {
-                if (response.isSuccessful() && response.body() != null) {
-                    User user = response.body();
-                } else {
-                }
-            }
-
-            @Override
-            public void onFailure(Call<User> call, Throwable t) {
-            }
-        });
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         //populateAutoComplete();
 
         mPasswordView = (EditText) findViewById(R.id.password);
+
         DatabaseHelper database = new DatabaseHelper(LoginActivity.this);//这段代码放到Activity类中才用this
         SQLiteDatabase db1 = null;
         db1 = database.getReadableDatabase();
@@ -210,11 +193,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             mEmailView.setError(getString(R.string.error_field_required));
             focusView = mEmailView;
             cancel = true;
-        } else if (!isEmailValid(email)) {
-            mEmailView.setError(getString(R.string.error_invalid_email));
-            focusView = mEmailView;
-            cancel = true;
         }
+//        else if (!isEmailValid(email)) {
+//            mEmailView.setError(getString(R.string.error_invalid_email));
+//            focusView = mEmailView;
+//            cancel = true;
+//        }
 
         if (cancel) {
             // There was an error; don't attempt login and focus the first
@@ -233,55 +217,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     }
 
 
-    /**
-     * 判断是不是一个合法的电子邮件地址
-     *
-     * @param email
-     * @return
-     */
-
-
-    private boolean isEmailValid(String email) {
-        if (email == null || email.length() < 5) {
-            // #如果帐号小于5位，则肯定不可能为邮箱帐号eg: x@x.x
-            return false;
-        }
-        if (!email.contains("@")) {// 判断是否含有@符号
-            return false;// 没有@则肯定不是邮箱
-        }
-        String[] sAcc = email.split("@");
-        if (sAcc.length != 2) {// # 数组长度不为2则包含2个以上的@符号，不为邮箱帐号
-            return false;
-        }
-        if (sAcc[0].length() <= 0) {// #@前段为邮箱用户名，自定义的话至少长度为1，其他暂不验证
-            return false;
-        }
-        if (sAcc[1].length() < 3 || !sAcc[1].contains(".")) {
-            // # @后面为域名，位数小于3位则不为有效的域名信息
-            // #如果后端不包含.则肯定不是邮箱的域名信息
-            return false;
-        } else {
-            if (sAcc[1].substring(sAcc[1].length() - 1).equals(".")) {
-                // # 最后一位不能为.结束
-                return false;
-            }
-            String[] sDomain = sAcc[1].split("\\.");
-            // #将域名拆分 tm-sp.com 或者 .com.cn.xxx
-            for (String s : sDomain) {
-                if (s.length() <= 0) {
-                    System.err.println(s);
-                    return false;
-                }
-            }
-
-        }
-        return true;
-    }
-
-
     private boolean isPasswordValid(String password) {
         //TODO: Replace this with your own logic
-        return password.length() > 6;
+        return password.length() > 3;
     }
 
     /**
@@ -422,29 +360,83 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
                 //true 注册 false 登录
                 if (record) {
-                    Toast.makeText(getApplicationContext(), "注册成功", Toast.LENGTH_SHORT).show();
-                    record();
+
+                    Retrofit retrofit = RetrofitClient.getClient(Constants.BASE_URL);
+                    BJApi userApi = retrofit.create(BJApi.class);
+                    String email = mEmailView.getText().toString();
+                    String password = mPasswordView.getText().toString();
+
+                    RegisterBody newUser = new RegisterBody();
+                    newUser.setLoginAccount(email);
+                    newUser.setPassword(password);
+                    newUser.setEmail(email+"@126.com");
+                    newUser.setUserType(1);
+                    Call<BaseBean> call = userApi.saveUser(newUser);
+                    call.enqueue(new Callback<BaseBean>() {
+                        @Override
+                        public void onResponse(Call<BaseBean> call, Response<BaseBean> response) {
+                            if (response.isSuccessful() && response.body() != null) {
+                                BaseBean bean = response.body();
+                                if (bean.success) {
+                                    Toast.makeText(getApplicationContext(), "注册成功", Toast.LENGTH_SHORT).show();
+                                    record();
+                                    startActivity(intent);
+                                    finish();
+                                } else {
+                                    Toast.makeText(getApplicationContext(), bean.message, Toast.LENGTH_SHORT).show();
+                                }
+                            } else {
+                                Toast.makeText(getApplicationContext(), "注册失败", Toast.LENGTH_SHORT).show();
+                            }
+
+                        }
+
+                        @Override
+                        public void onFailure(Call<BaseBean> call, Throwable t) {
+                            Toast.makeText(getApplicationContext(), "注册失败", Toast.LENGTH_SHORT).show();
+                            record();
+                        }
+                    });
+
+
                 } else {
-                    String username = PreferenceManager.getDefaultSharedPreferences(LoginActivity.this).getString("username", null);
-                    String password = PreferenceManager.getDefaultSharedPreferences(LoginActivity.this).getString("password", null);
 
-                    if (username == mEmailView.getText().toString() && password == mPasswordView.getText().toString()){
-                        Toast.makeText(getApplicationContext(), "登陆成功", Toast.LENGTH_SHORT).show();
-                        record();
-                    }else {
-                        Toast.makeText(getApplicationContext(), "登陆失败", Toast.LENGTH_SHORT).show();
-                        mPasswordView.setError(getString(R.string.error_incorrect_password));
-                        mPasswordView.requestFocus();
-                        return;
-                    }
+                    Retrofit retrofit = RetrofitClient.getClient(Constants.BASE_URL);
+                    BJApi userApi = retrofit.create(BJApi.class);
+                    String email = mEmailView.getText().toString();
+                    String password = mPasswordView.getText().toString();
+
+                    LoginBody newUser = new LoginBody();
+                    newUser.setLoginAccount(email);
+                    newUser.setPassword(password);
+                    newUser.setRole(1);
+                    Call<BaseBean> call = userApi.getUser(newUser);
+                    call.enqueue(new Callback<BaseBean>() {
+                        @Override
+                        public void onResponse(Call<BaseBean> call, Response<BaseBean> response) {
+                            if (response.isSuccessful() && response.body() != null) {
+                                BaseBean bean = response.body();
+                                if (bean.success) {
+                                    Toast.makeText(getApplicationContext(), "登陆成功", Toast.LENGTH_SHORT).show();
+                                    record();
+                                    startActivity(intent);
+                                    finish();
+                                } else {
+                                    Toast.makeText(getApplicationContext(), bean.message, Toast.LENGTH_SHORT).show();
+                                }
+                            } else {
+                                Toast.makeText(getApplicationContext(), "登陆失败", Toast.LENGTH_SHORT).show();
+                            }
+
+                        }
+
+                        @Override
+                        public void onFailure(Call<BaseBean> call, Throwable t) {
+                            Toast.makeText(getApplicationContext(), "登陆失败", Toast.LENGTH_SHORT).show();
+                            record();
+                        }
+                    });
                 }
-
-                startActivity(intent);
-                finish();
-
-            } else {
-                mPasswordView.setError(getString(R.string.error_incorrect_password));
-                mPasswordView.requestFocus();
             }
         }
 

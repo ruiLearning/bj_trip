@@ -9,6 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.zgsy.bj.R;
 import com.zgsy.bj.Tools.AsynImageLoader;
 
@@ -17,21 +18,23 @@ import java.util.List;
 /**
  * Created by panda on 2016/7/28.
  */
-public class list_Adapter extends BaseAdapter{
+public class list_Adapter extends BaseAdapter {
     private Activity context;
     private List<String> list;
-    private List<String>dataText;
-    public static int count=0;
-    public list_Adapter(Activity context, List<String> list, List<String>data) {
-        Log.i(">>List",list.size()+"");
+    private List<String> dataText;
+    public static int count = 0;
+
+    public list_Adapter(Activity context, List<String> list, List<String> data) {
+        Log.i(">>List", list.size() + "");
         this.context = context;
         this.list = list;
-        this.dataText=data;
+        this.dataText = data;
     }
 
-    private void initData(ImageView imageview,int position) {
-        AsynImageLoader asynImageLoader = new AsynImageLoader();
-        asynImageLoader.showImageAsyn( imageview,list.get(position),0x7f0200e9);
+    private void initData(ImageView imageview, int position) {
+//        AsynImageLoader asynImageLoader = new AsynImageLoader();
+//        asynImageLoader.showImageAsyn( imageview,list.get(position),0x7f0200e9);
+        Glide.with(context).load(list.get(position)).into(imageview);
     }
 
     @Override
@@ -40,10 +43,10 @@ public class list_Adapter extends BaseAdapter{
         System.out.print("" + position);
         LayoutInflater inflater = context.getLayoutInflater();
         ViewHolder holder;
-        if(convertView==null){
+        if (convertView == null) {
             holder = new ViewHolder();
             convertView = inflater.inflate(R.layout.list_item_lineactivity, null);
-            holder.imageSight=(ImageView)convertView.findViewById(R.id.list_image1);
+            holder.imageSight = (ImageView) convertView.findViewById(R.id.list_image1);
             holder.textSight = (TextView) convertView.findViewById(R.id.list_text1);
             convertView.setTag(holder);
         } else {
@@ -53,7 +56,7 @@ public class list_Adapter extends BaseAdapter{
         //String info = list.get(position);
         holder.textSight.setText(dataText.get(position));
         holder.imageSight.setImageBitmap(null);
-        initData(holder.imageSight,position);
+        initData(holder.imageSight, position);
 
         return convertView;
     }

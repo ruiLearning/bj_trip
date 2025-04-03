@@ -38,12 +38,13 @@ public class start extends AppCompatActivity implements View.OnClickListener {
 
         //获得保存在SharedPredPreferences中的用户名和密码
         String user_name = sp.getString("username", "");
-        if (TextUtils.isEmpty(user_name)) {
-            intent.setClass(this,LoginActivity.class);
-        }else {
-            intent.setClass(this, ProgressActivity.class);
-        }
+//        if (TextUtils.isEmpty(user_name)) {
+//            intent.setClass(this,LoginActivity.class);
+//        }else {
+//            intent.setClass(this, ProgressActivity.class);
+//        }
 
+        intent.setClass(this,MainActivity.class);
         startActivity(intent);
         this.finish();
     }

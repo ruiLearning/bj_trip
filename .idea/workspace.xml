@@ -5,7 +5,42 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_share_demo_activity.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_web.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/initiate.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/temp.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/view1.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/view2.xml">
         <config>
           <theme>@style/AppTheme</theme>
         </config>
@@ -21,98 +56,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" name="Changes" comment="项目修改完成">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Data/LoginBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/net/BJApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/net/RetrofitClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/migrations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PushSDK/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PushSDK/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/generated/source/buildConfig/androidTest/debug/com/umeng/message/lib/test/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/generated/source/buildConfig/debug/com/umeng/message/lib/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/generated/source/r/androidTest/debug/com/umeng/message/lib/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/bundles/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/incremental/compileDebugAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/intermediates/res/resources-debug-androidTest.ap_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PushSDK/build/outputs/aar/PushSDK-debug.aar" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Data/BaseBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Data/RegisterBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/WebActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Fragment/ContentWebFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/AppCompatPreferenceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/AppCompatPreferenceActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Data/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Data/DatabaseHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Data/ImageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Data/ImageData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Data/JianDanHtmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Data/JianDanHtmlParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Data/List_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Data/List_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Data/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Data/database.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Data/database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Data/enroll_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Data/enroll_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Model/LoadingView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Model/LoadingView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Model/MyListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Model/MyListView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Model/RoundImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Model/RoundImageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Model/RouteLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Model/RouteLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Tools/AsynImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Tools/AsynImageLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Tools/DecelerateAccelerateInterpolator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Tools/DecelerateAccelerateInterpolator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Tools/DepthPageTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Tools/DepthPageTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Tools/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Tools/FileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Tools/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Tools/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Tools/PicUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Tools/PicUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Tools/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Tools/Picture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Tools/ZoomOutPageTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Tools/ZoomOutPageTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/EnrollActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/EnrollActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/LineActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/LineActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/LineActivitySimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/LineActivitySimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/MineActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MineActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/ProgressActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/ProgressActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/RouteActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/RouteActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/SettingsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/SettingsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/TempActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/TempActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/initiateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/initiateActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Activity/start.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Adapter/gridviewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Adapter/gridviewAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Adapter/gridviewAdapter_record.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Adapter/gridviewAdapter_record.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Adapter/initViewPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Adapter/initViewPagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Adapter/list_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Adapter/list_Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Adapter/listmain_adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Adapter/listmain_adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Fragment/ContentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Fragment/ContentFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Fragment/FirstFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Fragment/FirstFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Fragment/FourFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Fragment/FourFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Fragment/SecondFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Fragment/SecondFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/Ui/Fragment/ThirdFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Fragment/ThirdFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/search/BusLineSearchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/search/BusLineSearchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/search/DistrictSearchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/search/DistrictSearchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/search/GeoCoderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/search/GeoCoderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/search/PoiSearchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/search/PoiSearchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/search/RouteLineAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/search/RouteLineAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/search/RoutePlanDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/search/RoutePlanDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/search/ShareDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/search/ShareDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/panda/myapplication/search/ShareDemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/search/ShareDemoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_enroll.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_enroll.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_line2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_line2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/start.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Adapter/gridviewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Adapter/gridviewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Adapter/list_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Adapter/list_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Fragment/ContentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Fragment/ContentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/net/BJApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/net/BJApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <list id="77dc7389-46fc-4974-ae48-992f4e4dd689" name="ignore" comment="ignore">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/bj_trip.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_23_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_23_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_mediarouter_v7_22_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_mediarouter_v7_22_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appindexing_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appindexing_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appstate_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appstate_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_nearby_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_nearby_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_plus_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_plus_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_safetynet_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_safetynet_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wallet_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wallet_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wearable_7_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wearable_7_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PushSDK/bj_trip.PushSDK.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PushSDK/bj_trip.PushSDK.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PushSDK/bj_trip.PushSDK.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/PushSDK/BJ_TRIP.PushSDK.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PushSDK/bj_trip.PushSDK.unitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/bj_trip.app.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/bj_trip.app.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/BJ_TRIP.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/bj_trip.app.unitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/library/bj_trip.library.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/library/bj_trip.library.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/library/BJ_TRIP.library.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/library/bj_trip.library.unitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BJ_TRIP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +143,7 @@
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=e6d24e29)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=5939308c)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -140,7 +157,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="BJ_TRIP" type="f1a62948:ProjectNode" />
+                <item name="bj_trip" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -3866,6 +3883,38 @@
       </list>
     </option>
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="7" end1="7" start2="7" end2="17" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="12" end1="12" start2="22" end2="47" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="23" end1="54" start2="58" end2="67" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="56" end1="115" start2="69" end2="132" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="128" end1="129" start2="145" end2="146" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="142" end1="143" start2="159" end2="160" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="3867" end1="3867" start2="3884" end2="3916" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4116" end1="4133" start2="4165" end2="4186" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4134" end1="4135" start2="4187" end2="4188" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4140" end1="4140" start2="4193" end2="4194" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4144" end1="4145" start2="4198" end2="4198" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4149" end1="4149" start2="4202" end2="4207" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4256" end1="4257" start2="4314" end2="4315" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4443" end1="4443" start2="4501" end2="4502" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4551" end1="4552" start2="4610" end2="4612" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4592" end1="4593" start2="4652" end2="4653" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4596" end1="4597" start2="4656" end2="4657" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4601" end1="4602" start2="4661" end2="4662" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4606" end1="4607" start2="4666" end2="4667" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4610" end1="4615" start2="4670" end2="4670" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4616" end1="4617" start2="4671" end2="4672" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4651" end1="4653" start2="4706" end2="4713" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="4656" end1="4658" start2="4716" end2="4743" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="5066" end1="5066" start2="5151" end2="5156" changelist="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" />
+        <range start1="5068" end1="5069" start2="5158" end2="5159" changelist="77dc7389-46fc-4974-ae48-992f4e4dd689" />
+        <range start1="5073" end1="5074" start2="5163" end2="5164" changelist="77dc7389-46fc-4974-ae48-992f4e4dd689" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -4114,38 +4163,47 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.app.executor": "Run",
-    "DEBUGGABLE_DEVICE": "xiaomi-mi_8-e6d24e29",
-    "DEBUGGABLE_PROCESS": "com.zgsy.bj",
-    "DEBUGGER_ID": "Auto",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHOW_ALL_PROCESSES": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;DEBUGGABLE_DEVICE&quot;: &quot;xiaomi-23127pn0cc-5939308c&quot;,
+    &quot;DEBUGGABLE_PROCESS&quot;: &quot;com.zgsy.bj&quot;,
+    &quot;DEBUGGER_ID&quot;: &quot;Auto&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHOW_ALL_PROCESSES&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/admin/AndroidStudioProjects/bj_trip/app/src/main/res/layout&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
       <recent name="E:\StudioProjects\BJ_TRIP\app\src\main\res\drawable" />
       <recent name="E:\StudioProjects\BJ_TRIP\app\src\main\res\drawable-xxxhdpi" />
       <recent name="E:\StudioProjects\BJ_TRIP\app\src\main\res\drawable-xhdpi-v9" />
       <recent name="E:\StudioProjects\BJ_TRIP\app\src\main\res\drawable-xxhdpi-v11" />
-      <recent name="E:\StudioProjects\BJ_TRIP" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\StudioProjects\BJ_TRIP\app\src\main\res\mipmap-xxhdpi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zgsy.bj.Ui.Fragment" />
+      <recent name="com.zgsy.bj.Ui.Activity" />
+      <recent name="com.zgsy.bj.Data" />
     </key>
   </component>
   <component name="RunManager">
@@ -4254,7 +4312,7 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="BJ_TRIP.app" />
+      <module name="bj_trip.app" />
       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -4441,6 +4499,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="10854f46-38f8-4b9e-a8ed-0fd1aee4685e" name="Changes" comment="" />
+      <changelist id="77dc7389-46fc-4974-ae48-992f4e4dd689" name="ignore" comment="" />
       <created>1735125946994</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -4549,7 +4608,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改图标等" />
     <MESSAGE value="项目修改完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目修改完成" />
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4590,31 +4650,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MainActivity.java</url>
-          <line>630</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MainActivity.java</url>
           <line>631</line>
-          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MainActivity.java</url>
           <line>632</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MainActivity.java</url>
+          <line>633</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MainActivity.java</url>
-          <line>645</line>
+          <line>646</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MainActivity.java</url>
-          <line>188</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Fragment/ContentFragment.java</url>
-          <line>95</line>
+          <line>97</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -4649,13 +4704,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/LoginActivity.java</url>
-          <line>100</line>
-          <option name="timeStamp" value="16" />
+          <line>384</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/LoginActivity.java</url>
-          <line>108</line>
-          <option name="timeStamp" value="17" />
+          <line>380</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/LoginActivity.java</url>
+          <line>386</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/LoginActivity.java</url>
+          <line>379</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/MainActivity.java</url>
+          <line>269</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Adapter/list_Adapter.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Fragment/ContentWebFragment.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zgsy/bj/Ui/Activity/WebActivity.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -5064,6 +5149,11 @@
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
+        <entry key="com.umeng.message.lib.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1743677289699" />
+          </value>
+        </entry>
         <entry key="com.zgsy.bj">
           <value>
             <CheckInfo lastCheckTimestamp="1743218164561" />

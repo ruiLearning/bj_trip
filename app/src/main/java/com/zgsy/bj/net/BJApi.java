@@ -1,6 +1,8 @@
 package com.zgsy.bj.net;
 
+import com.zgsy.bj.Data.BaseBean;
 import com.zgsy.bj.Data.LoginBody;
+import com.zgsy.bj.Data.RegisterBody;
 import com.zgsy.bj.Data.User;
 
 import retrofit2.Call;
@@ -12,5 +14,9 @@ import retrofit2.http.Path;
 public interface BJApi {
 
     @POST("login")
-    Call<User> getUser(@Body LoginBody loginBody);
+    Call<BaseBean> getUser(@Body LoginBody loginBody);
+    @POST("/user/saveUser")
+    Call<BaseBean> saveUser(@Body RegisterBody loginBody);
+
+
 }
