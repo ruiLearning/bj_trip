@@ -16,7 +16,6 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
 import com.zgsy.bj.Data.ImageData;
 import com.zgsy.bj.R;
 import com.zgsy.bj.Tools.AsynImageLoader;
@@ -78,12 +77,12 @@ public class ContentFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View contentView = inflater.inflate(R.layout.view1, container, false);
-        textView = (WebView) contentView.findViewById(R.id.textview_route);
+//        textView = (WebView) contentView.findViewById(R.id.textview_route);
         imageView = (ImageView) contentView.findViewById(R.id.imageview1);
         AsynImageLoader asynImageLoader = new AsynImageLoader();
         Log.i(">>position", position + "");
 //        asynImageLoader.showImageAsyn(imageView, ImageData.imageUrl.get(position), 0x7f0200e9);
-        Glide.with(this).load(ImageData.imageUrl.get(position)).into(imageView);
+//        Glide.with(this).load(ImageData.imageUrl.get(position)).into(imageView);
         imageView.setScaleType(ImageView.ScaleType.FIT_XY);
 
         try {

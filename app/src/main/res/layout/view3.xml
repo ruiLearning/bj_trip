@@ -62,7 +62,7 @@
                     android:layout_margin="8dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/point1"
+                    android:text="@string/point2"
                     android:textSize="20sp" />
 
             </android.support.v4.widget.NestedScrollView>

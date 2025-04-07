@@ -56,8 +56,14 @@ public class ContentWebFragment extends Fragment {
         // Required empty public constructor
     }
 
+    public static int position = 0;
+
     public static ContentWebFragment newInstance(Bundle bundle) {
         ContentWebFragment fragment = new ContentWebFragment();
+        if (bundle.getString("position") != null) {
+            Log.i(">>contentPosition>>", "" + bundle.getString("position"));
+            position = Integer.parseInt(bundle.getString("position"));
+        }
         return fragment;
     }
 
@@ -72,14 +78,26 @@ public class ContentWebFragment extends Fragment {
                              Bundle savedInstanceState) {
         View contentView = inflater.inflate(R.layout.fragment_web, container, false);
 
+        String url = "";
+        switch (position) {
+            case 99:
+                url = Constants.BASE_URL_LINE1;
+                break;
+            case 98:
+                url = Constants.BASE_URL_LINE2;
+                break;
+            default:
+                url = Constants.BASE_URL_WEB;
+                break;
+        }
+
         textView = new ByWebView.Builder(getActivity())
-                .setWebParent(contentView.findViewById(R.id.ll_web), new LinearLayout.LayoutParams(-1,-1))
-                .addJavascriptInterface("DuomeBridge",this)
-                .loadUrl(Constants.BASE_URL_WEB);
+                .setWebParent(contentView.findViewById(R.id.ll_web), new LinearLayout.LayoutParams(-1, -1))
+                .addJavascriptInterface("DuomeBridge", this)
+                .loadUrl(url);
 
         return contentView;
     }
-
 
 
     @Override

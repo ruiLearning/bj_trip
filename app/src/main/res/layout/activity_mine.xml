@@ -38,7 +38,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_weight="1"
-            android:text="用户邮箱"
+            android:text="用户"
             android:textSize="16sp"
             android:textStyle="bold"
 

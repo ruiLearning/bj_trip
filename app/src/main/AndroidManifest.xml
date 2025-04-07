@@ -25,7 +25,6 @@
     <!-- BmobSDK所需的权限 -->
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -49,11 +48,12 @@
         tools:replace="android:label">
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="Dvoyz6SkBUTVczSgVADkU3HQtFI1ELst" />
+            android:value="K2KyXqlsJ2weIcg6GdUNO2IliFVET7JA" />
 
 
         <activity
             android:name="com.zgsy.bj.Ui.Activity.initiateActivity"
+            android:exported="true"
             android:label="BJ_TRIP"
             android:screenOrientation="portrait">
             <intent-filter>

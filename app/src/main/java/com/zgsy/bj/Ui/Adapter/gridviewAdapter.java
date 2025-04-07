@@ -24,7 +24,7 @@ public class gridviewAdapter extends BaseAdapter
             };
    // "公交查询"
     private String mtext[]={
-            "路线查询", "公交查询","附近查询"
+            "路线查询", "景点预约","附近查询"
     };
     public gridviewAdapter(Context c)
     {

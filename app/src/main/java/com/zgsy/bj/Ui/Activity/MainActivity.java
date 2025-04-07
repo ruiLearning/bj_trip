@@ -28,6 +28,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.zgsy.bj.Constants;
 import com.zgsy.bj.Tools.AsynImageLoader;
 import com.zgsy.bj.Tools.DepthPageTransformer;
 import com.zgsy.bj.Data.List_info;
@@ -128,6 +129,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
                     case 1:
                         Intent intent1 = new Intent();
                         intent1.setClass(MainActivity.this, WebActivity.class);
+                        intent1.putExtra("contentPosition","0");
                         startActivity(intent1);
                         break;
                     case 2:
@@ -586,7 +588,13 @@ fragment 碎片显示
                 switch (count) {
                     case 0:
                         uri = Uri.parse("http://baike.so.com/doc/4880706-5098585.html");
-                        break;
+                        Intent intent = new Intent();
+                        intent.setClass(MainActivity.this, WebActivity.class);
+                        intent.putExtra("contentPosition","99");
+
+
+                        startActivity(intent);
+                        return;
                     case 1:
 
                         uri = Uri.parse("http://www.chinanews.com/sh/2015/10-05/7555597_2.shtml");
@@ -594,9 +602,13 @@ fragment 碎片显示
                         break;
                     case 2:
 
-                        uri = Uri.parse("http://baike.so.com/doc/7372469-7640406.html");
+                        Intent intent2 = new Intent();
+                        intent2.setClass(MainActivity.this, WebActivity.class);
+                        intent2.putExtra("contentPosition","98");
 
-                        break;
+
+                        startActivity(intent2);
+                        return;
                     default:
 
                         uri = Uri.parse("http://baike.baidu.com/view/3067177.html");

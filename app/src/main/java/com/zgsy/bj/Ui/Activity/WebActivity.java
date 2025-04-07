@@ -34,16 +34,14 @@ public class WebActivity extends AppCompatActivity {
                 transaction.show(firstFragment);
             }
         }
-            FragmentTransaction fragmentTransaction=getSupportFragmentManager().beginTransaction();
-            Bundle bundle = new Bundle();
-//            int s=getIntent().getExtras().getInt("contentPosition");
-//            Log.i(">>I",""+s);
-//            bundle.putString("position", s+"");
-            ContentWebFragment contentFragment = ContentWebFragment.newInstance(bundle);
-            fragmentTransaction.replace(R.id.main_container, contentFragment);
-            fragmentTransaction.commit();
-            fragmentTransaction.disallowAddToBackStack();
-            fragmentTransaction.show(contentFragment);
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        Bundle bundle = new Bundle();
+        bundle.putString("position", getIntent().getExtras().getString("contentPosition"));
+        ContentWebFragment contentFragment = ContentWebFragment.newInstance(bundle);
+        fragmentTransaction.replace(R.id.main_container, contentFragment);
+        fragmentTransaction.commit();
+        fragmentTransaction.disallowAddToBackStack();
+        fragmentTransaction.show(contentFragment);
     }
 
 
