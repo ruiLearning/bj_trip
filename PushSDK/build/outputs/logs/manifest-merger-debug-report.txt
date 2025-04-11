@@ -1,0 +1,278 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:2:1-148:12
+INJECTED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:2:1-148:12
+	package
+		INJECTED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:5:5-30
+	xmlns:tools
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:4:5-28
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.BROADCAST_PACKAGE_ADDED
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:13:5-82
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:13:22-79
+uses-permission#android.permission.BROADCAST_PACKAGE_CHANGED
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:14:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_INSTALL
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:15:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_REPLACED
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:16:5-85
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:16:22-82
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:18:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:19:22-78
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:20:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:21:22-73
+application
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:23:5-146:19
+	android:allowBackup
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:24:9-35
+	tools:replace
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:25:9-44
+service#com.taobao.accs.ChannelService
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:27:9-37:19
+	android:process
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:30:13-39
+	android:exported
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:28:13-58
+intent-filter#action:name:com.taobao.accs.intent.action.SERVICE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:31:13-33:29
+action#com.taobao.accs.intent.action.SERVICE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:32:25-77
+intent-filter#action:name:com.taobao.accs.intent.action.ELECTION
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:34:13-36:29
+action#com.taobao.accs.intent.action.ELECTION
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:35:17-81
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:35:25-78
+service#com.taobao.accs.data.MsgDistributeService
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:39:9-45:19
+	android:exported
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:40:13-69
+intent-filter#action:name:com.taobao.accs.intent.action.RECEIVE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:42:13-44:29
+action#com.taobao.accs.intent.action.RECEIVE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:43:17-80
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:43:25-77
+receiver#com.taobao.accs.EventReceiver
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:47:9-63:20
+	android:process
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:49:13-39
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:48:13-57
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:50:13-52:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:51:17-79
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:51:25-76
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:53:13-55:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:54:17-79
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:54:25-76
+intent-filter#action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:56:13-59:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:57:17-80
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:57:25-77
+data
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:58:17-50
+	android:scheme
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:58:23-47
+intent-filter#action:name:android.intent.action.USER_PRESENT
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:60:13-62:29
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:61:25-74
+receiver#com.taobao.accs.ServiceReceiver
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:65:9-74:20
+	android:process
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:67:13-39
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:66:13-59
+intent-filter#action:name:com.taobao.accs.intent.action.COMMAND
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:68:13-70:29
+action#com.taobao.accs.intent.action.COMMAND
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:69:17-80
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:69:25-77
+intent-filter#action:name:com.taobao.accs.intent.action.START_FROM_AGOO
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:71:13-73:29
+action#com.taobao.accs.intent.action.START_FROM_AGOO
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:72:17-88
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:72:25-85
+service#com.taobao.accs.ChannelService$KernelService
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:76:9-79:19
+	android:process
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:78:13-39
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:77:13-72
+service#org.android.agoo.accs.AgooService
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:81:9-87:19
+	android:exported
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:83:13-36
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:82:13-61
+service#com.umeng.message.UmengIntentService
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:89:9-94:19
+	android:exported
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:90:13-36
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:89:18-69
+intent-filter#action:name:org.agoo.android.intent.action.RECEIVE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:91:13-93:29
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:92:17-81
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:92:25-78
+receiver#com.taobao.agoo.AgooCommondReceiver
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:96:9-106:20
+	android:exported
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:98:13-36
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:97:13-63
+intent-filter#action:name:${applicationId}.intent.action.COMMAND
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:99:13-101:29
+action#${applicationId}.intent.action.COMMAND
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:100:17-81
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:100:25-78
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:108:9-110:40
+	android:exported
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:110:13-37
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:109:13-80
+service#com.umeng.message.UmengMessageCallbackHandlerService
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:111:9-126:19
+	android:exported
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:113:13-37
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:112:13-80
+intent-filter#action:name:com.umeng.messge.registercallback.action
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:114:13-116:29
+action#com.umeng.messge.registercallback.action
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:115:17-83
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:115:25-80
+intent-filter#action:name:com.umeng.message.enablecallback.action
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:117:13-119:29
+action#com.umeng.message.enablecallback.action
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:118:17-82
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:118:25-79
+intent-filter#action:name:com.umeng.message.disablecallback.action
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:120:13-122:29
+action#com.umeng.message.disablecallback.action
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:121:17-83
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:121:25-80
+intent-filter#action:name:com.umeng.message.message.handler.action
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:123:13-125:29
+action#com.umeng.message.message.handler.action
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:124:17-83
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:124:25-80
+service#com.umeng.message.UmengDownloadResourceService
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:128:9-130:40
+	android:exported
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:130:13-37
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:129:13-74
+service#com.umeng.message.UmengMessageIntentReceiverService
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:131:9-138:19
+	android:process
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:134:13-39
+	android:exported
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:133:13-36
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:132:13-79
+intent-filter#action:name:org.android.agoo.client.MessageReceiverService
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:135:13-137:29
+action#org.android.agoo.client.MessageReceiverService
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:136:17-89
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:136:25-86
+provider#com.umeng.message.provider.MessageProvider
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:139:9-145:20
+	android:process
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:143:13-39
+	android:authorities
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:141:13-65
+	android:exported
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:142:13-37
+	android:name
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:140:13-70
+grant-uri-permission
+ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:144:13-62
+	android:pathPattern
+		ADDED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:144:35-59
+uses-sdk
+INJECTED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml
+INJECTED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml

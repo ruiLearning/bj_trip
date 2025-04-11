@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.zgsy.bj.Ui.Fragment.ContentFragment;
+import com.zgsy.bj.Ui.Fragment.ContentFragment2;
 import com.zgsy.bj.Ui.Fragment.FirstFragment;
 import com.zgsy.bj.Ui.Fragment.FourFragment;
 import com.zgsy.bj.R;
@@ -70,7 +71,7 @@ public class TempActivity extends AppCompatActivity {
             int s=getIntent().getExtras().getInt("contentPosition");
             Log.i(">>I",""+s);
             bundle.putString("position", s+"");
-            ContentFragment contentFragment = ContentFragment.newInstance(bundle);
+            ContentFragment2 contentFragment = ContentFragment2.newInstance(bundle);
             fragmentTransaction.replace(R.id.main_container, contentFragment);
             fragmentTransaction.commit();
             fragmentTransaction.disallowAddToBackStack();

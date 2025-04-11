@@ -54,7 +54,7 @@
         <activity
             android:name="com.zgsy.bj.Ui.Activity.initiateActivity"
             android:exported="true"
-            android:label="BJ_TRIP"
+            android:label="石油北京旅游通"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -79,7 +79,7 @@
 
         <activity
             android:name="com.zgsy.bj.Ui.Activity.MainActivity"
-            android:label="BJ_TRIP"
+            android:label="石油北京旅游通"
             android:logo="@mipmap/ic_launcher"
             >
 

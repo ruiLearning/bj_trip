@@ -1,0 +1,305 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.umeng.message.lib.test" >
+4
+5    <uses-sdk
+5-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:5:5-74
+6        android:minSdkVersion="11"
+6-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:5:15-41
+7        android:targetSdkVersion="22" />
+7-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:11:5-15:76
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:11:22-75
+11        android:functionalTest="false"
+11-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:13:22-53
+13        android:label="Tests for com.umeng.message.lib.test"
+13-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:15:22-74
+14        android:targetPackage="com.umeng.message.lib.test" />
+14-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:12:22-72
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-67
+16-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-79
+17-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-76
+18-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:22-73
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:5-81
+19-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-68
+20-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:22-65
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:5-75
+21-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:22-72
+22    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED" />
+22-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:5-82
+22-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:22-79
+23    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED" />
+23-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:5-84
+23-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:22-81
+24    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL" />
+24-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:5-84
+24-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:22-81
+25    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED" />
+25-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:5-85
+25-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:22-82
+26    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+26-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:5-75
+26-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:22-72
+27    <uses-permission android:name="android.permission.GET_TASKS" />
+27-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:5-68
+27-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:22-65
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:5-81
+28-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:22-78
+29    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+29-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:5-79
+29-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:22-76
+30    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+30-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:5-76
+30-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:22-73
+31    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+32
+33    <application
+33-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:7:5-9:19
+34        android:allowBackup="true"
+34-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:9-35
+35        android:debuggable="true"
+36        android:extractNativeLibs="true" >
+37        <uses-library android:name="android.test.runner" />
+37-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:8:9-60
+37-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest466207328935416325.xml:8:23-57
+38
+39        <service
+39-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:9-39:19
+40            android:name="com.taobao.accs.ChannelService"
+40-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:13-58
+41            android:exported="true"
+41-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:13-36
+42            android:process=":channel" >
+42-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:32:13-39
+43            <intent-filter>
+43-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:33:13-35:29
+44                <action android:name="com.taobao.accs.intent.action.SERVICE" />
+44-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:34:17-80
+44-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:34:25-77
+45            </intent-filter>
+46            <intent-filter>
+46-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:36:13-38:29
+47                <action android:name="com.taobao.accs.intent.action.ELECTION" />
+47-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:37:17-81
+47-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:37:25-78
+48            </intent-filter>
+49        </service>
+50        <service
+50-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:40:9-46:19
+51            android:name="com.taobao.accs.data.MsgDistributeService"
+51-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:41:13-69
+52            android:exported="true" >
+52-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:42:13-36
+53            <intent-filter>
+53-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:43:13-45:29
+54                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+54-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:44:17-80
+54-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:44:25-77
+55            </intent-filter>
+56        </service>
+57
+58        <receiver
+58-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:48:9-65:20
+59            android:name="com.taobao.accs.EventReceiver"
+59-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:49:13-57
+60            android:process=":channel" >
+60-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:50:13-39
+61            <intent-filter>
+61-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:51:13-53:29
+62                <action android:name="android.intent.action.BOOT_COMPLETED" />
+62-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:52:17-79
+62-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:52:25-76
+63            </intent-filter>
+64            <intent-filter>
+64-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:54:13-56:29
+65                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+65-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:55:17-79
+65-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:55:25-76
+66            </intent-filter>
+67            <intent-filter>
+67-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:57:13-61:29
+68                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+68-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:58:17-80
+68-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:58:25-77
+69
+70                <data android:scheme="package" />
+70-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:60:17-50
+70-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:60:23-47
+71            </intent-filter>
+72            <intent-filter>
+72-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:62:13-64:29
+73                <action android:name="android.intent.action.USER_PRESENT" />
+73-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:63:17-77
+73-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:63:25-74
+74            </intent-filter>
+75        </receiver>
+76        <receiver
+76-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:66:9-75:20
+77            android:name="com.taobao.accs.ServiceReceiver"
+77-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:67:13-59
+78            android:process=":channel" >
+78-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:68:13-39
+79            <intent-filter>
+79-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:69:13-71:29
+80                <action android:name="com.taobao.accs.intent.action.COMMAND" />
+80-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:70:17-80
+80-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:70:25-77
+81            </intent-filter>
+82            <intent-filter>
+82-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:72:13-74:29
+83                <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO" />
+83-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:73:17-88
+83-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:73:25-85
+84            </intent-filter>
+85        </receiver>
+86
+87        <service
+87-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:77:9-80:19
+88            android:name="com.taobao.accs.ChannelService$KernelService"
+88-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:78:13-72
+89            android:process=":channel" >
+89-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:79:13-39
+90        </service>
+91        <service
+91-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:81:9-87:19
+92            android:name="org.android.agoo.accs.AgooService"
+92-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:82:13-61
+93            android:exported="true" >
+93-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:83:13-36
+94            <intent-filter>
+94-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:43:13-45:29
+95                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+95-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:44:17-80
+95-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:44:25-77
+96            </intent-filter>
+97        </service>
+98        <service
+98-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:88:9-94:19
+99            android:name="com.umeng.message.UmengIntentService"
+99-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:89:13-64
+100            android:exported="true" >
+100-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:90:13-36
+101            <intent-filter>
+101-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:91:13-93:29
+102                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+102-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:92:17-81
+102-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:92:25-78
+103            </intent-filter>
+104        </service>
+105
+106        <receiver
+106-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:96:9-107:20
+107            android:name="com.taobao.agoo.AgooCommondReceiver"
+107-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:97:13-63
+108            android:exported="true" >
+108-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:98:13-36
+109            <intent-filter>
+109-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:99:13-101:29
+110                <action android:name="com.umeng.message.lib.test.intent.action.COMMAND" />
+110-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:100:17-81
+110-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:100:25-78
+111            </intent-filter>
+112            <intent-filter>
+112-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:57:13-61:29
+113                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+113-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:58:17-80
+113-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:58:25-77
+114
+115                <data android:scheme="package" />
+115-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:60:17-50
+115-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:60:23-47
+116            </intent-filter>
+117        </receiver>
+118        <receiver
+118-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:108:9-110:40
+119            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+119-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:109:13-80
+120            android:exported="false" />
+120-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:110:13-37
+121
+122        <service
+122-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:112:9-127:19
+123            android:name="com.umeng.message.UmengMessageCallbackHandlerService"
+123-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:113:13-80
+124            android:exported="false" >
+124-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:114:13-37
+125            <intent-filter>
+125-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:115:13-117:29
+126                <action android:name="com.umeng.messge.registercallback.action" />
+126-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:116:17-83
+126-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:116:25-80
+127            </intent-filter>
+128            <intent-filter>
+128-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:118:13-120:29
+129                <action android:name="com.umeng.message.enablecallback.action" />
+129-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:119:17-82
+129-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:119:25-79
+130            </intent-filter>
+131            <intent-filter>
+131-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:121:13-123:29
+132                <action android:name="com.umeng.message.disablecallback.action" />
+132-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:122:17-83
+132-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:122:25-80
+133            </intent-filter>
+134            <intent-filter>
+134-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:124:13-126:29
+135                <action android:name="com.umeng.message.message.handler.action" />
+135-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:125:17-83
+135-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:125:25-80
+136            </intent-filter>
+137        </service>
+138        <service
+138-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:128:9-130:40
+139            android:name="com.umeng.message.UmengDownloadResourceService"
+139-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:129:13-74
+140            android:exported="false" />
+140-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:130:13-37
+141        <service
+141-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:131:9-138:19
+142            android:name="com.umeng.message.UmengMessageIntentReceiverService"
+142-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:132:13-79
+143            android:exported="true"
+143-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:133:13-36
+144            android:process=":channel" >
+144-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:134:13-39
+145            <intent-filter>
+145-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:135:13-137:29
+146                <action android:name="org.android.agoo.client.MessageReceiverService" />
+146-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:136:17-89
+146-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:136:25-86
+147            </intent-filter>
+148        </service>
+149
+150        <provider
+150-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:140:9-146:20
+151            android:name="com.umeng.message.provider.MessageProvider"
+151-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:141:13-70
+152            android:authorities="com.umeng.message.lib.test.umeng.message"
+152-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:142:13-65
+153            android:exported="false"
+153-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:143:13-37
+154            android:process=":channel" >
+154-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:144:13-39
+155            <grant-uri-permission android:pathPattern=".*" />
+155-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:145:13-62
+155-->[:PushSDK] /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:145:35-59
+156        </provider>
+157    </application>
+158
+159</manifest>

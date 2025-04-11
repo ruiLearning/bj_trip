@@ -1,0 +1,285 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.umeng.message.lib"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk android:minSdkVersion="11" />
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:7:5-67
+10-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:7:22-64
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:8:5-79
+11-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:8:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:9:5-76
+12-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:9:22-73
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:10:5-81
+13-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:11:5-68
+14-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:11:22-65
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:12:5-75
+15-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:12:22-72
+16    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED" />
+16-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:13:5-82
+16-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:13:22-79
+17    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED" />
+17-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:14:5-84
+17-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:14:22-81
+18    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL" />
+18-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:15:5-84
+18-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:15:22-81
+19    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED" />
+19-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:16:5-85
+19-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:16:22-82
+20    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+20-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:17:5-75
+20-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:17:22-72
+21    <uses-permission android:name="android.permission.GET_TASKS" />
+21-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:18:5-68
+21-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:18:22-65
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:19:5-81
+22-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:19:22-78
+23    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+23-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:20:5-79
+23-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:20:22-76
+24    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+24-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:21:5-75
+24-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:21:22-73
+25
+26    <application
+26-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:23:5-146:19
+27        android:allowBackup="true"
+27-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:24:9-35
+28        tools:replace="android:allowBackup" >
+28-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:25:9-44
+29        <service
+29-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:27:9-37:19
+30            android:name="com.taobao.accs.ChannelService"
+30-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:28:13-58
+31            android:exported="true"
+31-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:29:13-36
+32            android:process=":channel" >
+32-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:30:13-39
+33            <intent-filter>
+33-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:31:13-33:29
+34                <action android:name="com.taobao.accs.intent.action.SERVICE" />
+34-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:32:17-80
+34-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:32:25-77
+35            </intent-filter>
+36            <intent-filter>
+36-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:34:13-36:29
+37                <action android:name="com.taobao.accs.intent.action.ELECTION" />
+37-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:35:17-81
+37-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:35:25-78
+38            </intent-filter>
+39        </service>
+40        <service
+40-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:39:9-45:19
+41            android:name="com.taobao.accs.data.MsgDistributeService"
+41-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:40:13-69
+42            android:exported="true" >
+42-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:41:13-36
+43            <intent-filter>
+43-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:42:13-44:29
+44                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+44-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:43:17-80
+44-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:43:25-77
+45            </intent-filter>
+46        </service>
+47
+48        <receiver
+48-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:47:9-63:20
+49            android:name="com.taobao.accs.EventReceiver"
+49-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:48:13-57
+50            android:process=":channel" >
+50-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:49:13-39
+51            <intent-filter>
+51-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:50:13-52:29
+52                <action android:name="android.intent.action.BOOT_COMPLETED" />
+52-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:51:17-79
+52-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:51:25-76
+53            </intent-filter>
+54            <intent-filter>
+54-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:53:13-55:29
+55                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+55-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:54:17-79
+55-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:54:25-76
+56            </intent-filter>
+57            <intent-filter>
+57-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:56:13-59:29
+58                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+58-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:57:17-80
+58-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:57:25-77
+59
+60                <data android:scheme="package" />
+60-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:58:17-50
+60-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:58:23-47
+61            </intent-filter>
+62            <intent-filter>
+62-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:60:13-62:29
+63                <action android:name="android.intent.action.USER_PRESENT" />
+63-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:61:17-77
+63-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:61:25-74
+64            </intent-filter>
+65        </receiver>
+66        <receiver
+66-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:65:9-74:20
+67            android:name="com.taobao.accs.ServiceReceiver"
+67-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:66:13-59
+68            android:process=":channel" >
+68-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:67:13-39
+69            <intent-filter>
+69-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:68:13-70:29
+70                <action android:name="com.taobao.accs.intent.action.COMMAND" />
+70-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:69:17-80
+70-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:69:25-77
+71            </intent-filter>
+72            <intent-filter>
+72-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:71:13-73:29
+73                <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO" />
+73-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:72:17-88
+73-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:72:25-85
+74            </intent-filter>
+75        </receiver>
+76
+77        <service
+77-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:76:9-79:19
+78            android:name="com.taobao.accs.ChannelService$KernelService"
+78-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:77:13-72
+79            android:process=":channel" >
+79-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:78:13-39
+80        </service>
+81        <service
+81-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:81:9-87:19
+82            android:name="org.android.agoo.accs.AgooService"
+82-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:82:13-61
+83            android:exported="true" >
+83-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:83:13-36
+84            <intent-filter>
+84-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:42:13-44:29
+85                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+85-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:43:17-80
+85-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:43:25-77
+86            </intent-filter>
+87        </service>
+88        <service
+88-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:89:9-94:19
+89            android:name="com.umeng.message.UmengIntentService"
+89-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:89:18-69
+90            android:exported="true" >
+90-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:90:13-36
+91            <intent-filter>
+91-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:91:13-93:29
+92                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+92-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:92:17-81
+92-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:92:25-78
+93            </intent-filter>
+94        </service>
+95
+96        <receiver
+96-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:96:9-106:20
+97            android:name="com.taobao.agoo.AgooCommondReceiver"
+97-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:97:13-63
+98            android:exported="true" >
+98-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:98:13-36
+99            <intent-filter>
+99-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:99:13-101:29
+100                <action android:name="${applicationId}.intent.action.COMMAND" />
+100-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:100:17-81
+100-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:100:25-78
+101            </intent-filter>
+102            <intent-filter>
+102-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:56:13-59:29
+103                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+103-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:57:17-80
+103-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:57:25-77
+104
+105                <data android:scheme="package" />
+105-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:58:17-50
+105-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:58:23-47
+106            </intent-filter>
+107        </receiver>
+108        <receiver
+108-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:108:9-110:40
+109            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+109-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:109:13-80
+110            android:exported="false" />
+110-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:110:13-37
+111
+112        <service
+112-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:111:9-126:19
+113            android:name="com.umeng.message.UmengMessageCallbackHandlerService"
+113-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:112:13-80
+114            android:exported="false" >
+114-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:113:13-37
+115            <intent-filter>
+115-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:114:13-116:29
+116                <action android:name="com.umeng.messge.registercallback.action" />
+116-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:115:17-83
+116-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:115:25-80
+117            </intent-filter>
+118            <intent-filter>
+118-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:117:13-119:29
+119                <action android:name="com.umeng.message.enablecallback.action" />
+119-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:118:17-82
+119-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:118:25-79
+120            </intent-filter>
+121            <intent-filter>
+121-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:120:13-122:29
+122                <action android:name="com.umeng.message.disablecallback.action" />
+122-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:121:17-83
+122-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:121:25-80
+123            </intent-filter>
+124            <intent-filter>
+124-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:123:13-125:29
+125                <action android:name="com.umeng.message.message.handler.action" />
+125-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:124:17-83
+125-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:124:25-80
+126            </intent-filter>
+127        </service>
+128        <service
+128-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:128:9-130:40
+129            android:name="com.umeng.message.UmengDownloadResourceService"
+129-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:129:13-74
+130            android:exported="false" />
+130-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:130:13-37
+131        <service
+131-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:131:9-138:19
+132            android:name="com.umeng.message.UmengMessageIntentReceiverService"
+132-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:132:13-79
+133            android:exported="true"
+133-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:133:13-36
+134            android:process=":channel" >
+134-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:134:13-39
+135            <intent-filter>
+135-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:135:13-137:29
+136                <action android:name="org.android.agoo.client.MessageReceiverService" />
+136-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:136:17-89
+136-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:136:25-86
+137            </intent-filter>
+138        </service>
+139
+140        <provider
+140-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:139:9-145:20
+141            android:name="com.umeng.message.provider.MessageProvider"
+141-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:140:13-70
+142            android:authorities="${applicationId}.umeng.message"
+142-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:141:13-65
+143            android:exported="false"
+143-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:142:13-37
+144            android:process=":channel" >
+144-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:143:13-39
+145            <grant-uri-permission android:pathPattern=".*" />
+145-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:144:13-62
+145-->/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/AndroidManifest.xml:144:35-59
+146        </provider>
+147    </application>
+148
+149</manifest>

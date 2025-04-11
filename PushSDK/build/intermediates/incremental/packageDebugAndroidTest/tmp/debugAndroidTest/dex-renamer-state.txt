@@ -1,0 +1,4 @@
+#Mon Apr 07 23:06:28 CST 2025
+base.0=/Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

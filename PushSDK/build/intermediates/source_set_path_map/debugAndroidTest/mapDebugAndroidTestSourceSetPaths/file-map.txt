@@ -1,0 +1,5 @@
+com.umeng.message.lib.test.PushSDK-androidTest-0 /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/generated/res/resValues/androidTest/debug
+com.umeng.message.lib.test.PushSDK-mergeDebugAndroidTestResources-1 /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.umeng.message.lib.test.PushSDK-mergeDebugAndroidTestResources-2 /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.umeng.message.lib.test.PushSDK-debugAndroidTest-3 /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+com.umeng.message.lib.test.PushSDK-debug-4 /Users/ban/Desktop/sj/BJ_TRIP/PushSDK/build/intermediates/packaged_res/debug/packageDebugResources
